@@ -83,11 +83,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
-                    href="tel:3653864272"
+                    href="tel:18554726875"
                     className="inline-flex items-center justify-center gap-2 bg-brand-red text-white text-sm font-semibold px-5 py-2.5 rounded hover:bg-red-700 transition-colors"
                   >
                     <PhoneIcon />
-                    Call 365-386-4272
+                    Call 1-855-472-6875
                   </a>
                   <Link
                     href="/contact"
@@ -108,11 +108,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   Find out what your business qualifies for. Free call, no obligation.
                 </p>
                 <a
-                  href="tel:3653864272"
+                  href="tel:18554726875"
                   className="inline-flex items-center justify-center gap-2 bg-white text-brand-red text-sm font-semibold px-5 py-2.5 rounded hover:bg-red-50 transition-colors w-full"
                 >
                   <PhoneIcon red />
-                  Call 365-386-4272
+                  Call 1-855-472-6875
                 </a>
               </div>
 
