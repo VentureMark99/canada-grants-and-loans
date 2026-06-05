@@ -1,0 +1,2 @@
+Drop your logo.png file into this folder.
+The site references it as /logo.png
