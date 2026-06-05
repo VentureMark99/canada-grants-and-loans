@@ -9,7 +9,6 @@ const navLinks = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "Grants Database", href: "/grants" },
   { label: "Pricing", href: "/pricing" },
-  { label: "Success Stories", href: "/success-stories" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
@@ -43,9 +42,9 @@ export default function Header() {
             <img
               src="/logo.png"
               alt="Canada Grants and Loans"
-              className="h-10 lg:h-12 w-auto [mix-blend-mode:multiply]"
-              width={200}
-              height={48}
+              className="h-[60px] lg:h-[72px] w-auto [mix-blend-mode:multiply]"
+              width={300}
+              height={72}
             />
           </Link>
 

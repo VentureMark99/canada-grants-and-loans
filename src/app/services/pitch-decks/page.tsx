@@ -203,9 +203,9 @@ export default function PitchDecksPage() {
           <div className="bg-white border-2 border-brand-navy rounded-lg overflow-hidden shadow-sm">
             <div className="bg-brand-navy px-8 py-5 flex items-center justify-between">
               <div>
-                <h3 className="text-xl font-bold text-white">Comprehensive Package</h3>
+                <h3 className="text-xl font-bold text-white">The Complete Package</h3>
                 <p className="text-blue-200 text-sm mt-0.5">
-                  Business Plan + Pitch Deck — included together
+                  Business Plan + Pitch Deck + 10 Grant Applications
                 </p>
               </div>
               <div className="text-right">
@@ -218,7 +218,8 @@ export default function PitchDecksPage() {
                 {[
                   "20+ slide pitch deck with custom design in your brand colours",
                   "Financial summary and projections slides",
-                  "Full business plan included at no extra charge",
+                  "Full business plan included — no extra charge",
+                  "10 grant applications — written and submitted on your behalf",
                   "Competitive analysis and market opportunity slides",
                   "The Ask slide with funding breakdown",
                   "Unlimited revisions until you are satisfied",

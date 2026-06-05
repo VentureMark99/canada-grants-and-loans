@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "How Canada Grants and Loans Can Help",
         paragraphs: [
-          "CDAP application support is part of our full-service Grant Application package. We handle everything: eligibility assessment, advisor selection guidance, Digital Adoption Plan writing, submission, and follow-up with ISED reviewers. Our fee is $2,500 — flat, all-inclusive.",
+          "CDAP application support is included in The Complete Package. For $2,500 — flat, all-inclusive — we handle your business plan, pitch deck, and 10 grant applications including CDAP: eligibility assessment, Digital Adoption Plan writing, submission, and follow-up with ISED reviewers.",
           "If your application is identified as a strong candidate during our initial intake call, we can typically have your Digital Adoption Plan ready for submission within 10 business days. Call us at 365-386-4272 to find out if your business qualifies.",
         ],
       },
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Get a Free Eligibility Assessment",
         paragraphs: [
-          "Canada Grants and Loans researches hundreds of federal, provincial, municipal, and private programmes to find the ones your specific business qualifies for. We then write and submit the application on your behalf for a flat $2,500 fee — no hourly charges, no success fees.",
+          "Canada Grants and Loans researches hundreds of federal, provincial, municipal, and private programmes to find the ones your specific business qualifies for. The Complete Package — $2,500, flat, all-inclusive — covers your business plan, pitch deck, and 10 grant applications written and submitted on your behalf. No hourly charges, no success fees.",
           "Call us at 365-386-4272 for a free intake call. We'll tell you within 20 minutes what programmes we think you're eligible for and what the process looks like.",
         ],
       },
@@ -169,7 +169,7 @@ export const blogPosts: BlogPost[] = [
         heading: "How a Professional Business Plan Changes Your Outcomes",
         paragraphs: [
           "Canada Grants and Loans writes business plans specifically formatted for Canadian financial institutions, including BDC, traditional chartered banks, and credit unions. Our plans include full 5-year financial projections built to lender standards, not investor standards — with conservative assumptions, detailed cash flow modelling, and a clear debt service coverage analysis.",
-          "Our Comprehensive Business Plan package is $2,500, all-inclusive — no page limits, unlimited revisions, delivered in both PDF and editable formats. Call us at 365-386-4272 to get started.",
+          "The Complete Package is $2,500, all-inclusive — business plan, pitch deck, and 10 grant applications, with no page limits, unlimited revisions, and delivery in both PDF and editable formats. Call us at 365-386-4272 to get started.",
         ],
       },
     ],

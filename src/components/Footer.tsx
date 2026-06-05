@@ -8,10 +8,10 @@ const navCol1 = [
 ];
 
 const navCol2 = [
-  { label: "Success Stories", href: "/success-stories" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
   { label: "Business Plans", href: "/services/business-plans" },
+  { label: "Grant Applications", href: "/services/grant-applications" },
 ];
 
 export default function Footer() {
@@ -26,9 +26,9 @@ export default function Footer() {
             <img
                 src="/logo.png"
                 alt="Canada Grants and Loans"
-                className="h-10 w-auto mb-4 brightness-0 invert"
-                width={200}
-                height={40}
+                className="h-[60px] w-auto mb-4 brightness-0 invert"
+                width={300}
+                height={60}
                 loading="lazy"
               />
             </Link>

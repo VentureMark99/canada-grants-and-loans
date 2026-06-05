@@ -810,17 +810,12 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-white rounded border border-gray-200 shadow-sm p-6">
-                <h3 className="text-sm font-bold text-brand-navy mb-3">Flat-Rate Services</h3>
-                <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex justify-between">
-                    <span>Business Plan + Pitch Deck</span>
-                    <span className="font-bold text-brand-navy">$2,500</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Grant Application</span>
-                    <span className="font-bold text-brand-navy">$2,500</span>
-                  </li>
-                </ul>
+                <h3 className="text-sm font-bold text-brand-navy mb-1">The Complete Package</h3>
+                <p className="text-xs text-gray-500 mb-3">Business Plan + Pitch Deck + 10 Grant Applications</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-700">One flat fee</span>
+                  <span className="text-lg font-black text-brand-navy">$2,500</span>
+                </div>
                 <p className="text-xs text-gray-400 mt-3 leading-relaxed">
                   All-inclusive. No hourly charges. No hidden fees.
                 </p>

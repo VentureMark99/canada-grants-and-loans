@@ -79,7 +79,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   Ready to Apply? We&apos;ll Handle Everything.
                 </p>
                 <p className="text-blue-200 text-sm mb-5 leading-relaxed">
-                  Flat $2,500 fee. No hidden charges. We find it, write it, and submit it.
+                  One package, one flat fee: $2,500. Business plan, pitch deck, and 10 grant applications — all included.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
@@ -118,17 +118,12 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
               {/* Pricing reminder */}
               <div className="bg-white rounded border border-gray-200 shadow-sm p-6">
-                <h3 className="text-sm font-bold text-brand-navy mb-3">Our Services</h3>
-                <ul className="space-y-3 text-sm text-gray-700">
-                  <li className="flex justify-between items-center">
-                    <span>Business Plan + Pitch Deck</span>
-                    <span className="font-bold text-brand-navy">$2,500</span>
-                  </li>
-                  <li className="flex justify-between items-center">
-                    <span>Grant Application</span>
-                    <span className="font-bold text-brand-navy">$2,500</span>
-                  </li>
-                </ul>
+                <h3 className="text-sm font-bold text-brand-navy mb-1">The Complete Package</h3>
+                <p className="text-xs text-gray-500 mb-3 leading-relaxed">Business Plan + Pitch Deck + 10 Grant Applications</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-sm text-gray-700">One flat fee</span>
+                  <span className="text-lg font-black text-brand-navy">$2,500</span>
+                </div>
                 <div className="mt-4">
                   <Link
                     href="/pricing"

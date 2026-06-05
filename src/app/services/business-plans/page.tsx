@@ -215,15 +215,15 @@ export default function BusinessPlansPage() {
             Pricing
           </h2>
           <p className="text-gray-500 text-center mb-10">
-            One all-inclusive package. No hidden fees.
+            Part of The Complete Package — one flat fee, everything included.
           </p>
 
           <div className="bg-brand-light border-2 border-brand-navy rounded-lg overflow-hidden shadow-sm">
             <div className="bg-brand-navy px-8 py-5 flex items-center justify-between">
               <div>
-                <h3 className="text-xl font-bold text-white">Comprehensive Package</h3>
+                <h3 className="text-xl font-bold text-white">The Complete Package</h3>
                 <p className="text-blue-200 text-sm mt-0.5">
-                  Business Plan + Pitch Deck — everything in one
+                  Business Plan + Pitch Deck + 10 Grant Applications
                 </p>
               </div>
               <div className="text-right">
@@ -236,9 +236,9 @@ export default function BusinessPlansPage() {
                 {[
                   "Comprehensive business plan (full sections, professional format)",
                   "20+ slide pitch deck with custom design and financial slides",
-                  "Financial projections (3-year) with cash flow statements",
-                  "Investor-ready format meeting lender & government standards",
-                  "Executive summary, market analysis, risk analysis",
+                  "10 grant applications — written and submitted on your behalf",
+                  "Financial projections (5-year) with cash flow statements",
+                  "Investor-ready and lender-ready format",
                   "Unlimited revisions until you are satisfied",
                   "Priority turnaround",
                 ].map((item) => (

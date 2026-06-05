@@ -56,7 +56,7 @@ const steps = [
 const faqs = [
   {
     q: "How much does it cost?",
-    a: "All our services are offered at one clear, all-inclusive price of $2,500. This covers your comprehensive business plan, pitch deck, or grant application — with no hidden fees, no hourly charges, and no surprises. Call us for details on exactly what's included for your specific situation.",
+    a: "We offer one package at one price: $2,500, all-inclusive. The Complete Package covers your comprehensive business plan, professionally designed pitch deck, and 10 grant applications written and submitted on your behalf — with no hidden fees, no hourly charges, and no surprises.",
   },
   {
     q: "How long does it take?",

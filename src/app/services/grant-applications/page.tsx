@@ -268,15 +268,15 @@ export default function GrantApplicationsPage() {
             Pricing
           </h2>
           <p className="text-gray-500 text-center mb-10">
-            One all-inclusive package. No hidden fees.
+            Part of The Complete Package — one flat fee, everything included.
           </p>
 
           <div className="bg-brand-light border-2 border-brand-navy rounded-lg overflow-hidden shadow-sm">
             <div className="bg-brand-navy px-8 py-5 flex items-center justify-between">
               <div>
-                <h3 className="text-xl font-bold text-white">Comprehensive Package</h3>
+                <h3 className="text-xl font-bold text-white">The Complete Package</h3>
                 <p className="text-blue-200 text-sm mt-0.5">
-                  Full grant search, application writing & submission
+                  Business Plan + Pitch Deck + 10 Grant Applications
                 </p>
               </div>
               <div className="text-right">
@@ -287,9 +287,10 @@ export default function GrantApplicationsPage() {
             <div className="px-8 py-6">
               <ul className="space-y-3">
                 {[
+                  "10 grant applications — written and submitted on your behalf",
                   "Full grant search across federal, provincial, municipal, and private programmes",
-                  "Complete application written and submitted on your behalf",
-                  "Follow-up with the administering agency until a decision is reached",
+                  "Business plan and pitch deck included in the same package",
+                  "Follow-up with administering agencies until decisions are reached",
                   "Support through any additional documentation requests",
                   "Unlimited revisions",
                 ].map((item) => (
