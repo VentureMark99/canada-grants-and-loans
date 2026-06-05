@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const navCol1 = [
   { label: "Services", href: "/services" },
@@ -21,14 +21,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="md:col-span-1">
-            <Link href="/">
+            <Link href="/" className="inline-block bg-white rounded px-3 py-2 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+              <img
                 src="/logo.png"
                 alt="Canada Grants and Loans"
-                className="h-[60px] w-auto mb-4 brightness-0 invert"
+                className="h-[44px] w-auto"
                 width={300}
-                height={60}
+                height={44}
                 loading="lazy"
               />
             </Link>
@@ -83,7 +83,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:3653864272"
+                  href="tel:18554726875"
                   className="flex items-center gap-2 text-sm text-blue-100 hover:text-white transition-colors"
                 >
                   <svg
@@ -97,7 +97,7 @@ export default function Footer() {
                   >
                     <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
                   </svg>
-                  365-386-4272
+                  1-855-472-6875
                 </a>
               </li>
               <li>
