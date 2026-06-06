@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
@@ -183,11 +183,11 @@ export default function GrantsDatabasePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:3653864272"
+              href="tel:18554726875"
               className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               <PhoneIcon />
-              Call 365-386-4272
+              Call 1-855-472-6875
             </a>
             <Link
               href="/contact"

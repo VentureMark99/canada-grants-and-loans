@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useMemo, useRef, useEffect } from "react";
 import { startupGrants, existingBusinessGrants } from "@/data/grantRanges";
@@ -175,7 +175,7 @@ function LeadFormSection() {
         <p className="text-green-700 text-sm leading-relaxed">
           We&apos;ve received your information and will be in touch within 24 hours. In the
           meantime, feel free to call us at{" "}
-          <a href="tel:3653864272" className="font-bold underline">365-386-4272</a>.
+          <a href="tel:18554726875" className="font-bold underline">1-855-472-6875</a>.
         </p>
       </div>
     );
@@ -750,11 +750,11 @@ export default function ContactPage() {
       <div className="bg-brand-navy py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
           <a
-            href="tel:3653864272"
+            href="tel:18554726875"
             className="text-2xl font-black text-white hover:text-brand-red transition-colors flex items-center gap-2"
           >
             <PhoneIconLg />
-            365-386-4272
+            1-855-472-6875
           </a>
           <span className="hidden sm:block text-blue-400">·</span>
           <p className="text-blue-200 text-sm">We respond to all enquiries within 24 hours.</p>
@@ -801,11 +801,11 @@ export default function ContactPage() {
                 <p className="text-white font-bold text-base mb-1">Prefer to Talk?</p>
                 <p className="text-red-100 text-sm mb-4">Call us now — no hold time, no bots.</p>
                 <a
-                  href="tel:3653864272"
+                  href="tel:18554726875"
                   className="inline-flex items-center justify-center gap-2 bg-white text-brand-red font-bold text-lg px-6 py-3 rounded hover:bg-red-50 transition-colors w-full"
                 >
                   <PhoneIconSm />
-                  365-386-4272
+                  1-855-472-6875
                 </a>
               </div>
 

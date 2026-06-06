@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import FaqAccordion from "@/components/FaqAccordion";
 
@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     q: "Do you offer payment plans?",
-    a: "Please call us at 365-386-4272 to discuss payment options. We work with clients to find arrangements that fit their situation.",
+    a: "Please call us at 1-855-472-6875 to discuss payment options. We work with clients to find arrangements that fit their situation.",
   },
   {
     q: "How long does it take to complete everything?",
@@ -181,7 +181,7 @@ export default function PricingPage() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
                 <a
-                  href="tel:3653864272"
+                  href="tel:18554726875"
                   className="flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3.5 rounded hover:bg-red-700 transition-colors flex-1 text-base"
                 >
                   <PhoneIcon />
@@ -200,8 +200,8 @@ export default function PricingPage() {
           {/* Reassurance note */}
           <p className="text-center text-xs text-gray-400 mt-6 leading-relaxed">
             Not sure if this is right for you? Call us at{" "}
-            <a href="tel:3653864272" className="font-semibold text-brand-navy hover:underline">
-              365-386-4272
+            <a href="tel:18554726875" className="font-semibold text-brand-navy hover:underline">
+              1-855-472-6875
             </a>{" "}
             — free consultation, no obligation.
           </p>
@@ -216,19 +216,19 @@ export default function PricingPage() {
           </h2>
           <p className="text-blue-200 leading-relaxed mb-8">
             Call{" "}
-            <a href="tel:3653864272" className="text-white font-bold hover:underline">
-              365-386-4272
+            <a href="tel:18554726875" className="text-white font-bold hover:underline">
+              1-855-472-6875
             </a>{" "}
             and we&apos;ll walk you through exactly what the package covers for your specific
             business — at no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:3653864272"
+              href="tel:18554726875"
               className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               <PhoneIcon />
-              Call 365-386-4272
+              Call 1-855-472-6875
             </a>
             <Link
               href="/contact"

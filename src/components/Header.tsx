@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -68,11 +68,11 @@ export default function Header() {
           {/* Right side — phone + CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:3653864272"
+              href="tel:18554726875"
               className="flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-red transition-colors"
             >
               <PhoneIcon />
-              365-386-4272
+              1-855-472-6875
             </a>
             <Link
               href="/contact"
@@ -109,11 +109,11 @@ export default function Header() {
           ))}
           <hr className="border-gray-200" />
           <a
-            href="tel:3653864272"
+            href="tel:18554726875"
             className="flex items-center gap-2 text-base font-semibold text-brand-navy"
           >
             <PhoneIcon />
-            365-386-4272
+            1-855-472-6875
           </a>
           <Link
             href="/contact"
