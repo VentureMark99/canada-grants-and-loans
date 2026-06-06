@@ -138,9 +138,37 @@ function LeadFormSection() {
     province: "", services: [], description: "", bestTime: "", heardAbout: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [typeQuery, setTypeQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const typeRef = useRef<HTMLDivElement>(null);
+
+  async function handleLeadSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setSubmitting(true);
+    try {
+      await fetch("https://hook.us2.make.com/ieuqrjlekxgocy2kctmhqbsd04wc53ay", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          submitted_at: new Date().toLocaleString("en-CA", { timeZone: "America/Toronto" }),
+          full_name: form.fullName,
+          business_name: form.businessName,
+          business_type: form.businessType,
+          business_stage: form.businessStage,
+          province: form.province,
+          services_needed: form.services.join(", "),
+          description: form.description,
+          best_time_to_call: form.bestTime,
+          heard_about_us: form.heardAbout,
+        }),
+      });
+    } catch {
+      // Submit silently even if webhook fails — don't block the user
+    }
+    setSubmitting(false);
+    setSubmitted(true);
+  }
 
   const suggestions = useMemo(() => {
     const q = typeQuery.toLowerCase().trim();
@@ -182,7 +210,7 @@ function LeadFormSection() {
   }
 
   return (
-    <form onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }} className="space-y-5">
+    <form onSubmit={handleLeadSubmit} className="space-y-5">
       <div>
         <label className={labelCls}>Full Name <Required /></label>
         <input type="text" required value={form.fullName}
@@ -294,8 +322,8 @@ function LeadFormSection() {
         </select>
       </div>
 
-      <button type="submit" className="w-full bg-brand-red text-white font-semibold py-3.5 rounded hover:bg-red-700 transition-colors text-base">
-        Submit My Information
+      <button type="submit" disabled={submitting} className="w-full bg-brand-red text-white font-semibold py-3.5 rounded hover:bg-red-700 transition-colors text-base disabled:opacity-60 disabled:cursor-not-allowed">
+        {submitting ? "Sending…" : "Submit My Information"}
       </button>
     </form>
   );
