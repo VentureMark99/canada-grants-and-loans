@@ -38,7 +38,7 @@ export default function HomePage() {
                   className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3.5 rounded hover:bg-red-700 transition-colors text-base"
                 >
                   <PhoneIcon />
-                  Call Us Now — 1-855-472-6875
+                  Call Us Now — 1-855-GRANTS-5
                 </a>
                 <Link
                   href="/services"
@@ -234,7 +234,7 @@ export default function HomePage() {
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-red font-bold px-7 py-3.5 rounded hover:bg-gray-100 transition-colors text-base"
             >
               <PhoneIconRed />
-              Call 1-855-472-6875
+              Call 1-855-GRANTS-5
             </a>
             <Link
               href="/contact"

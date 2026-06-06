@@ -72,7 +72,7 @@ export default function Header() {
               className="flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-red transition-colors"
             >
               <PhoneIcon />
-              1-855-472-6875
+              1-855-GRANTS-5
             </a>
             <Link
               href="/contact"
@@ -113,7 +113,7 @@ export default function Header() {
             className="flex items-center gap-2 text-base font-semibold text-brand-navy"
           >
             <PhoneIcon />
-            1-855-472-6875
+            1-855-GRANTS-5
           </a>
           <Link
             href="/contact"

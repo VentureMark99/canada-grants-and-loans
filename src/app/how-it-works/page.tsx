@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Call us at 1-855-472-6875 or fill out our contact form at /contact. We'll get back to you within one business day — usually the same day — to schedule your free intake call.",
+    a: "Call us at 1-855-GRANTS-5 or fill out our contact form at /contact. We'll get back to you within one business day — usually the same day — to schedule your free intake call.",
   },
 ];
 
@@ -228,7 +228,7 @@ export default function HowItWorksPage() {
               className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               <PhoneIcon />
-              Call 1-855-472-6875
+              Call 1-855-GRANTS-5
             </a>
             <Link
               href="/contact"

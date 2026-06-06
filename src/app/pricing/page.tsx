@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     q: "Do you offer payment plans?",
-    a: "Please call us at 1-855-472-6875 to discuss payment options. We work with clients to find arrangements that fit their situation.",
+    a: "Please call us at 1-855-GRANTS-5 to discuss payment options. We work with clients to find arrangements that fit their situation.",
   },
   {
     q: "How long does it take to complete everything?",
@@ -201,7 +201,7 @@ export default function PricingPage() {
           <p className="text-center text-xs text-gray-400 mt-6 leading-relaxed">
             Not sure if this is right for you? Call us at{" "}
             <a href="tel:18554726875" className="font-semibold text-brand-navy hover:underline">
-              1-855-472-6875
+              1-855-GRANTS-5
             </a>{" "}
             — free consultation, no obligation.
           </p>
@@ -217,7 +217,7 @@ export default function PricingPage() {
           <p className="text-blue-200 leading-relaxed mb-8">
             Call{" "}
             <a href="tel:18554726875" className="text-white font-bold hover:underline">
-              1-855-472-6875
+              1-855-GRANTS-5
             </a>{" "}
             and we&apos;ll walk you through exactly what the package covers for your specific
             business — at no obligation.
@@ -228,7 +228,7 @@ export default function PricingPage() {
               className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               <PhoneIcon />
-              Call 1-855-472-6875
+              Call 1-855-GRANTS-5
             </a>
             <Link
               href="/contact"

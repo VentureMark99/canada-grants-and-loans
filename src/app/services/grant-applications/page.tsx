@@ -151,7 +151,7 @@ export default function GrantApplicationsPage() {
                 className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
               >
                 <PhoneIcon />
-                Call 1-855-472-6875
+                Call 1-855-GRANTS-5
               </a>
               <Link
                 href="/contact"
@@ -329,7 +329,7 @@ export default function GrantApplicationsPage() {
               className="inline-flex items-center justify-center gap-2 bg-white text-brand-red font-bold px-6 py-3 rounded hover:bg-gray-100 transition-colors"
             >
               <PhoneIconRed />
-              Call 1-855-472-6875
+              Call 1-855-GRANTS-5
             </a>
             <Link
               href="/contact"

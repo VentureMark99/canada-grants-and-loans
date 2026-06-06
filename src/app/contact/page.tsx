@@ -203,7 +203,7 @@ function LeadFormSection() {
         <p className="text-green-700 text-sm leading-relaxed">
           We&apos;ve received your information and will be in touch within 24 hours. In the
           meantime, feel free to call us at{" "}
-          <a href="tel:18554726875" className="font-bold underline">1-855-472-6875</a>.
+          <a href="tel:18554726875" className="font-bold underline">1-855-GRANTS-5</a>.
         </p>
       </div>
     );
@@ -782,7 +782,7 @@ export default function ContactPage() {
             className="text-2xl font-black text-white hover:text-brand-red transition-colors flex items-center gap-2"
           >
             <PhoneIconLg />
-            1-855-472-6875
+            1-855-GRANTS-5
           </a>
           <span className="hidden sm:block text-blue-400">·</span>
           <p className="text-blue-200 text-sm">We respond to all enquiries within 24 hours.</p>
@@ -833,7 +833,7 @@ export default function ContactPage() {
                   className="inline-flex items-center justify-center gap-2 bg-white text-brand-red font-bold text-lg px-6 py-3 rounded hover:bg-red-50 transition-colors w-full"
                 >
                   <PhoneIconSm />
-                  1-855-472-6875
+                  1-855-GRANTS-5
                 </a>
               </div>
 
