@@ -147,24 +147,24 @@ function LeadFormSection() {
     e.preventDefault();
     setSubmitting(true);
     try {
-      await fetch("https://hook.us2.make.com/ieuqrjlekxgocy2kctmhqbsd04wc53ay", {
+      await fetch("https://formspree.io/f/mzdqdjdg", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          submitted_at: new Date().toLocaleString("en-CA", { timeZone: "America/Toronto" }),
-          full_name: form.fullName,
-          business_name: form.businessName,
-          business_type: form.businessType,
-          business_stage: form.businessStage,
-          province: form.province,
-          services_needed: form.services.join(", "),
-          description: form.description,
-          best_time_to_call: form.bestTime,
-          heard_about_us: form.heardAbout,
+          "Submitted At": new Date().toLocaleString("en-CA", { timeZone: "America/Toronto" }),
+          "Full Name": form.fullName,
+          "Business Name": form.businessName,
+          "Business Type": form.businessType,
+          "Business Stage": form.businessStage,
+          "Province": form.province,
+          "Services Needed": form.services.join(", "),
+          "Description": form.description,
+          "Best Time to Call": form.bestTime,
+          "Heard About Us": form.heardAbout,
         }),
       });
     } catch {
-      // Submit silently even if webhook fails — don't block the user
+      // Submit silently even if fetch fails — don't block the user
     }
     setSubmitting(false);
     setSubmitted(true);
