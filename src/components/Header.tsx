@@ -37,9 +37,15 @@ export default function Header() {
       {/* Business name bar */}
       <div className="border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center">
-          <Link href="/" className="text-center leading-tight">
-            <span className="block text-2xl lg:text-3xl font-black text-brand-red tracking-wide uppercase">Canada</span>
-            <span className="block text-xs lg:text-sm font-bold text-brand-navy tracking-[0.2em] uppercase">Grants and Loans</span>
+          <Link href="/">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt="Canada Grants and Loans"
+              className="h-[52px] lg:h-[64px] w-auto [mix-blend-mode:multiply]"
+              width={320}
+              height={64}
+            />
           </Link>
         </div>
       </div>
