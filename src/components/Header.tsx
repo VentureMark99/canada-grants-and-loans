@@ -40,7 +40,7 @@ export default function Header() {
           <Link href="/">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
+              src="/logo%202.png"
               alt="Canada Grants and Loans"
               className="h-[52px] lg:h-[64px] w-auto [mix-blend-mode:multiply]"
               width={320}
