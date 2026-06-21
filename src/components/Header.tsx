@@ -36,33 +36,38 @@ export default function Header() {
     >
       {/* Business name bar */}
       <div className="border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center">
-          <Link href="/">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo%202.png"
-              alt="Canada Grants and Loans"
-              className="h-[52px] lg:h-[64px] w-auto [mix-blend-mode:multiply]"
-              width={320}
-              height={64}
-            />
-          </Link>
-        </div>
-      </div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center gap-4">
+          {/* Icon logo — left */}
           <Link href="/" className="flex-shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.png"
               alt="Canada Grants and Loans"
-              className="h-[60px] lg:h-[72px] w-auto [mix-blend-mode:multiply]"
-              width={300}
-              height={72}
+              className="h-[52px] lg:h-[64px] w-auto [mix-blend-mode:multiply]"
+              width={80}
+              height={64}
             />
           </Link>
+          {/* Wordmark — centred in remaining space */}
+          <div className="flex-1 flex justify-center">
+            <Link href="/">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo%202.png"
+                alt="Canada Grants and Loans"
+                className="h-[52px] lg:h-[64px] w-auto [mix-blend-mode:multiply]"
+                width={320}
+                height={64}
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
+          {/* Spacer to keep nav centred without the logo */}
+          <div className="lg:w-[120px]" />
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-6">
