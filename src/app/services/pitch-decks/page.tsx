@@ -56,16 +56,9 @@ export default function PitchDecksPage() {
               market opportunity, and financials — from the opening slide to the ask.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="tel:18554726875"
-                className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
-              >
-                <PhoneIcon />
-                Call 1-855-GRANTS-5
-              </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center border-2 border-brand-navy text-brand-navy font-semibold px-6 py-3 rounded hover:bg-brand-navy hover:text-white transition-colors"
+                className="inline-flex items-center justify-center bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
               >
                 Get a Free Consultation
               </Link>
@@ -183,7 +176,7 @@ export default function PitchDecksPage() {
               </div>
               <h3 className="font-bold text-white mb-1">Rush Available</h3>
               <p className="text-sm text-red-100">
-                Need it faster? Call us and we&apos;ll discuss priority delivery options.
+                Need it faster? Send us a message and we&apos;ll discuss priority delivery options.
               </p>
             </div>
           </div>
@@ -243,19 +236,12 @@ export default function PitchDecksPage() {
             Ready to Build Your Pitch Deck?
           </h2>
           <p className="text-blue-200 mb-8 leading-relaxed">
-            Call us to discuss your pitch and we&apos;ll get started right away.
+            Tell us about your pitch and we&apos;ll get started right away.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:18554726875"
-              className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
-            >
-              <PhoneIcon />
-              Call 1-855-GRANTS-5
-            </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white hover:text-brand-navy transition-colors"
+              className="inline-flex items-center justify-center bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               Send a Message
             </Link>
@@ -274,13 +260,6 @@ function CheckIcon() {
   );
 }
 
-function PhoneIcon() {
-  return (
-    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-    </svg>
-  );
-}
 
 function ClockIcon() {
   return (

@@ -201,9 +201,7 @@ function LeadFormSection() {
         </svg>
         <h3 className="text-lg font-bold text-green-800 mb-2">Thank you!</h3>
         <p className="text-green-700 text-sm leading-relaxed">
-          We&apos;ve received your information and will be in touch within 24 hours. In the
-          meantime, feel free to call us at{" "}
-          <a href="tel:18554726875" className="font-bold underline">1-855-GRANTS-5</a>.
+          We&apos;ve received your information and will be in touch within 24 hours.
         </p>
       </div>
     );
@@ -777,14 +775,6 @@ export default function ContactPage() {
       {/* Contact info bar */}
       <div className="bg-brand-navy py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
-          <a
-            href="tel:18554726875"
-            className="text-2xl font-black text-white hover:text-brand-red transition-colors flex items-center gap-2"
-          >
-            <PhoneIconLg />
-            1-855-GRANTS-5
-          </a>
-          <span className="hidden sm:block text-blue-400">·</span>
           <p className="text-blue-200 text-sm">We respond to all enquiries within 24 hours.</p>
         </div>
       </div>
@@ -823,18 +813,6 @@ export default function ContactPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
-
-              <div className="bg-brand-red rounded p-6 text-center">
-                <p className="text-white font-bold text-base mb-1">Prefer to Talk?</p>
-                <p className="text-red-100 text-sm mb-4">Call us now — no hold time, no bots.</p>
-                <a
-                  href="tel:18554726875"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-brand-red font-bold text-lg px-6 py-3 rounded hover:bg-red-50 transition-colors w-full"
-                >
-                  <PhoneIconSm />
-                  1-855-GRANTS-5
-                </a>
               </div>
 
               <div className="bg-white rounded border border-gray-200 shadow-sm p-6">
@@ -876,21 +854,7 @@ export default function ContactPage() {
 
 /* ── Icons ────────────────────────────────────────────────────── */
 
-function PhoneIconLg() {
-  return (
-    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-    </svg>
-  );
-}
 
-function PhoneIconSm() {
-  return (
-    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-    </svg>
-  );
-}
 
 function CheckMark() {
   return (

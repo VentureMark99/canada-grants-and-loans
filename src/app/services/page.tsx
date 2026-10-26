@@ -142,20 +142,13 @@ export default function ServicesPage() {
           </h2>
           <p className="text-gray-600 mb-8 leading-relaxed">
             Many of our clients need a combination of services — a business plan and a grant
-            application, or a pitch deck alongside their funding search. Call us and we&apos;ll
+            application, or a pitch deck alongside their funding search. Tell us about your business and we&apos;ll
             assess your situation and recommend exactly what you need.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:18554726875"
-              className="inline-flex items-center justify-center gap-2 bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
-            >
-              <PhoneIcon />
-              Call 1-855-GRANTS-5
-            </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center border-2 border-brand-navy text-brand-navy font-semibold px-6 py-3 rounded hover:bg-brand-navy hover:text-white transition-colors"
+              className="inline-flex items-center justify-center bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors"
             >
               Send Us a Message
             </Link>
@@ -174,13 +167,6 @@ function CheckIcon() {
   );
 }
 
-function PhoneIcon() {
-  return (
-    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-    </svg>
-  );
-}
 
 function BusinessPlanIcon() {
   return (
