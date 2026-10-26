@@ -1,6 +1,5 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
-import GrantLookup from "@/components/GrantLookup";
 
 export const metadata: Metadata = {
   title: "Canada Grants and Loans | Business Plans, Pitch Decks & Grant Applications",
@@ -200,23 +199,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 5. GRANT FUNDING RANGES ──────────────────────────────── */}
-      <section className="bg-white py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-brand-navy mb-4">
-              How Much Could Your Business Qualify For?
-            </h2>
-            <p className="text-base text-gray-600 max-w-2xl mx-auto">
-              Browse estimated grant funding ranges by business type. Amounts reflect combined
-              federal, provincial, municipal, and private programmes available as of June 2026.
-            </p>
-          </div>
-          <GrantLookup />
-        </div>
-      </section>
-
-      {/* ── 6. FINAL CTA ─────────────────────────────────────────── */}
+      {/* ── 5. FINAL CTA ─────────────────────────────────────────── */}
       <section className="bg-brand-red py-16 lg:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-5">
