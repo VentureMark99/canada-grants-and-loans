@@ -13,53 +13,51 @@
 export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-apply-cdap-2026",
-    title: "How to Apply for the Canada Digital Adoption Program (CDAP) in 2026",
+    title: "CDAP Is Closed — Here's What to Apply For Instead",
     excerpt:
-      "CDAP provides up to $15,000 in grant funding and interest-free BDC loans up to $100,000 to help small businesses adopt digital technology. Here is exactly how to apply.",
-    date: "May 14, 2026",
-    readTime: "7 min read",
+      "The Canada Digital Adoption Program's $15,000 grant stopped accepting new applications in February 2024. Here are three federal programmes you can actually apply to now.",
+    date: "October 26, 2026",
+    readTime: "5 min read",
     category: "Grant Guides",
     body: "",
     sections: [
       {
-        heading: "What Is CDAP?",
+        heading: "Is CDAP Still Open?",
         paragraphs: [
-          "The Canada Digital Adoption Program (CDAP) is a federal initiative designed to help small and medium-sized businesses adopt digital technologies, improve their e-commerce presence, and modernize their operations. The programme offers two streams: Boost Your Business Technology and Grow Your Business Online.",
-          "The Boost Your Business Technology stream provides grants of up to $15,000 to help businesses hire a digital advisor and develop a digital adoption plan. Once the plan is approved, businesses become eligible for interest-free loans of up to $100,000 through BDC — Canada's Business Development Bank.",
-          "For many Canadian small businesses, CDAP is one of the most accessible and high-value grants currently available. The application process is streamlined compared to many provincial programmes, and the combination of grant funding plus low-cost financing makes it uniquely powerful.",
+          "No. The Canada Digital Adoption Program's Boost Your Business Technology grant — the stream that paid up to $15,000 toward a digital adoption plan — closed to new applications in February 2024 after it became fully subscribed.",
+          "Innovation, Science and Economic Development Canada (ISED) still lists the grant as not accepting new applications and has not announced a reopening date. Businesses that already held an approved grant agreement were allowed to continue, but new applicants cannot get in.",
+          "If you find a website or consultant still advertising CDAP as available, treat everything else they tell you with caution. The good news: CDAP was never the only option, and several federal programmes are open right now.",
         ],
       },
       {
-        heading: "Who Is Eligible for CDAP?",
+        heading: "1. Canada Summer Jobs 2027 — Applications Open October 27, 2026",
         paragraphs: [
-          "To qualify for the Boost Your Business Technology stream, your business must be a for-profit Canadian business, have been in operation for at least one year, have annual revenues between $500,000 and $100 million, and have between 1 and 499 full-time equivalent employees.",
-          "Agricultural businesses, non-profits, government entities, and businesses primarily engaged in real estate investment do not qualify. The programme is specifically designed for businesses looking to modernize operations — think inventory management systems, CRM platforms, e-commerce infrastructure, cloud migration, and similar projects.",
-          "The Grow Your Business Online stream has a lower threshold, covering businesses of virtually any size that want to build or improve an online presence, including e-commerce capabilities.",
+          "Canada Summer Jobs is a federal wage subsidy for employers who create summer jobs for young people aged 15 to 30. Private-sector businesses with 50 or fewer full-time employees can receive up to 50% of the provincial or territorial minimum wage for each approved position. Not-for-profit organizations can receive up to 100%.",
+          "The call for applications for summer 2027 opens on October 27, 2026. The window is short: the previous cycle ran from November 4 to December 11, 2025. Funding is competitive, so a clear, well-written description of each job and what the young person will learn makes a real difference.",
+          "This is one of the most accessible programmes for small businesses, because it does not require a technology project, a minimum revenue, or years of operating history.",
         ],
       },
       {
-        heading: "Step-by-Step: How to Apply for CDAP",
+        heading: "2. NRC IRAP — If You Are Developing New Technology",
         paragraphs: [
-          "Step 1: Register on the CDAP portal at ised.canada.ca. You will need your CRA Business Number, business incorporation documents, and basic financial information. The registration process takes approximately 30 minutes.",
-          "Step 2: Connect with a registered digital advisor. CDAP maintains a marketplace of approved advisors. You select an advisor, sign an agreement, and the advisor develops your Digital Adoption Plan — a roadmap outlining what technology you will adopt, how it will benefit your operations, and a projected budget.",
-          "Step 3: Submit your Digital Adoption Plan for review. ISED evaluates the plan against CDAP criteria. This review typically takes 4–6 weeks. If approved, your grant funds are released directly to your advisor to cover their fee.",
-          "Step 4: Apply for the BDC loan. Once your Digital Adoption Plan is approved, you are automatically eligible to apply for an interest-free BDC loan of up to $100,000 to fund the actual implementation of the plan. BDC has its own application process for this component.",
-          "Step 5: Implement and report. CDAP requires progress reporting at defined milestones. Ensure you document your technology adoption activities as outlined in your approved plan.",
+          "The National Research Council's Industrial Research Assistance Program (NRC IRAP) funds incorporated, for-profit Canadian businesses with 500 or fewer employees that are developing and commercializing an innovative, technology-driven product, service, or process.",
+          "IRAP does not work on a fixed application deadline. You start by contacting NRC IRAP and speaking with an Industrial Technology Advisor, who assesses whether your project fits and, if it does, invites a full proposal. Funded projects run within the federal fiscal year (April 1 to March 31), so it pays to start the conversation well before the year you want to spend the money.",
+          "If CDAP appealed to you because you were modernizing with off-the-shelf software, IRAP is not a direct replacement — it is for businesses building something new, not buying existing tools.",
         ],
       },
       {
-        heading: "Common Mistakes That Get Applications Rejected",
+        heading: "3. Canada Small Business Financing Program — If You Need a Loan",
         paragraphs: [
-          "The most common reason CDAP applications stall is a poorly written Digital Adoption Plan. Reviewers are looking for specific, measurable outcomes tied to your business goals — not vague statements about 'going digital.' Plans that do not clearly connect the proposed technology to a defined business challenge are frequently sent back for revision.",
-          "Another common issue is selecting a digital advisor who is not registered in the CDAP marketplace. The advisor must be approved by ISED before work begins; costs incurred before registration are not covered.",
-          "Finally, businesses sometimes underestimate the importance of the financial documentation. Reviewers verify revenue and employee counts against CRA filings. Discrepancies — even minor ones — can delay approval significantly.",
+          "CDAP's other big draw was its interest-free BDC loan. That loan was tied to the closed grant, but the Canada Small Business Financing Program is open year-round. It helps small businesses with gross annual revenues of $10 million or less get financing from banks and credit unions, with the federal government sharing the lender's risk.",
+          "Borrowers can access up to $1.15 million: up to $1 million in term loans and up to $150,000 as a line of credit. You apply directly through the financial institution of your choice, and the lender — not the government — makes the decision.",
+          "Because the lender decides, the quality of your business plan and financial projections matters more here than almost anywhere else.",
         ],
       },
       {
         heading: "How Canada Grants and Loans Can Help",
         paragraphs: [
-          "CDAP application support is included in The Complete Package. For $2,500 — flat, all-inclusive — we handle your business plan, pitch deck, and 10 grant applications including CDAP: eligibility assessment, Digital Adoption Plan writing, submission, and follow-up with ISED reviewers.",
-          "If your application is identified as a strong candidate during our initial intake call, we can typically have your Digital Adoption Plan ready for submission within 10 business days. Contact us to find out if your business qualifies.",
+          "Programmes open and close constantly, and many of the lists you find online are out of date. We check what is actually accepting applications, tell you which programmes fit your business, and write and submit the applications on your behalf.",
+          "The Complete Package — $2,500, flat and all-inclusive — covers your business plan, pitch deck, and 10 grant applications. Contact us to find out which open programmes your business qualifies for.",
         ],
       },
     ],
@@ -86,9 +84,9 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Top Federal Startup Grants in 2026",
         paragraphs: [
-          "Canada Digital Adoption Program (CDAP): Up to $15,000 grant plus $100,000 BDC loan for technology adoption. Available to businesses with revenues between $500K and $100M. See our full CDAP guide for application details.",
+          "Canada Summer Jobs: A federal wage subsidy of up to 50% of minimum wage for private businesses with 50 or fewer full-time employees that hire youth aged 15–30 for the summer. Applications for summer 2027 open October 27, 2026. (Note: the Canada Digital Adoption Program grant is closed — see our guide to what to apply for instead.)",
           "NRC IRAP (Industrial Research Assistance Program): Up to $50,000 for early-stage technology companies working on innovation projects. IRAP is highly competitive but one of the most generous early-stage programmes in Canada. Eligible businesses must be working on a specific technical challenge.",
-          "CanExport SMEs: Up to $50,000 (50% cost-share) for businesses looking to develop new export markets. If your startup is targeting international customers, CanExport can cover trade show costs, market research, legal fees for new market entry, and digital marketing in foreign markets.",
+          "CanExport SMEs: Up to $50,000 for businesses developing new export markets. The 2026–27 intake is closed, and no date has been announced for the next one — but if your startup is targeting international customers, it is worth preparing for.",
           "Strategic Innovation Fund (SIF): While SIF is better known for larger companies, early-stage projects with significant innovation and job-creation potential can qualify for contributions. Minimum project cost is $10 million, making this a programme to grow into rather than start with.",
           "Futurpreneur Canada: Loans up to $60,000 plus mentorship for entrepreneurs aged 18–39. Not a grant, but Futurpreneur's interest-rate structure and 2-year payment deferral make it nearly equivalent for cash flow purposes in the early years.",
         ],

@@ -171,24 +171,29 @@ export default function HomePage() {
                     Featured Grant
                   </p>
                   <h3 className="text-xl font-bold text-brand-navy">
-                    Canada Digital Adoption Program (CDAP)
+                    Canada Summer Jobs 2027
                   </h3>
                 </div>
                 <div className="bg-brand-light rounded px-4 py-2 text-center flex-shrink-0">
                   <p className="text-xs text-gray-500 mb-0.5">Up To</p>
-                  <p className="text-2xl font-bold text-brand-navy">$15,000</p>
+                  <p className="text-2xl font-bold text-brand-navy">50%</p>
+                  <p className="text-xs text-gray-500 mt-0.5">of minimum wage</p>
                 </div>
               </div>
+              <p className="text-sm text-gray-600 mb-3">
+                <span className="font-semibold text-brand-dark">Who qualifies:</span> Private
+                businesses with 50 or fewer full-time employees hiring youth aged 15–30 for summer
+                jobs. Not-for-profits can receive up to 100% of minimum wage.
+              </p>
               <p className="text-sm text-gray-600 mb-6">
-                <span className="font-semibold text-brand-dark">Who qualifies:</span> Small
-                businesses adopting digital tools — including e-commerce, point-of-sale, inventory
-                management, and cybersecurity solutions.
+                <span className="font-semibold text-brand-dark">Applications open:</span> October
+                27, 2026. The window is short — last year&apos;s ran just over five weeks.
               </p>
               <Link
                 href="/contact"
                 className="inline-block bg-brand-red text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition-colors text-sm"
               >
-                Find Out If You Qualify
+                Get Help With Your Application
               </Link>
             </div>
             <p className="text-xs text-gray-400 mt-4 text-center">

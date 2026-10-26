@@ -61,7 +61,7 @@ const services = [
       "Most Canadian businesses leave thousands of dollars in grant funding untapped — simply because they don't know it exists or don't have time to apply. We search hundreds of federal, provincial, municipal, and private grant programmes, write every word of the application, submit it on your behalf, and follow up with the agency until a decision is reached.",
     includes: [
       "Full grant search across all funding sources",
-      "Federal grants (ISED, CDAP, NRC IRAP, ACOA, FedDev, etc.)",
+      "Federal grants (ISED, NRC IRAP, ACOA, FedDev, etc.)",
       "Provincial grants (all 10 provinces & 3 territories)",
       "Municipal & regional grants",
       "Private & foundation grants",

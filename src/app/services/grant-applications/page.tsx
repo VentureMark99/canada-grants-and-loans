@@ -30,7 +30,7 @@ const grantTypes = [
   {
     icon: <FederalIcon />,
     title: "Federal Grants",
-    desc: "ISED, CDAP, NRC IRAP, ACOA, FedDev Ontario, WD, PacifiCan, CanNor, and other federal programmes spanning innovation, hiring, export, and digital adoption.",
+    desc: "ISED, NRC IRAP, ACOA, FedDev Ontario, WD, PacifiCan, CanNor, and other federal programmes spanning innovation, hiring, export, and digital adoption.",
   },
   {
     icon: <ProvincialIcon />,
