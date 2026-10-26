@@ -5,46 +5,21 @@ import Link from "next/link";
 import { startupGrants, existingBusinessGrants } from "@/data/grantRanges";
 
 type Stage = "startup" | "existing";
-type SortMode = "alpha" | "high" | "low";
 type FilterTab = "all" | "startup" | "existing";
 
 type Entry = {
   businessType: string;
-  range: string;
   stage: Stage;
-  lowAmount: number;
-  highAmount: number;
 };
 
-function parseAmount(str: string): number {
-  const clean = str.replace(/[$,]/g, "");
-  if (clean.includes("M")) return parseFloat(clean) * 1_000_000;
-  return parseInt(clean, 10) || 0;
-}
-
-function parseRange(range: string): { low: number; high: number } {
-  const parts = range.split("–");
-  return {
-    low: parseAmount(parts[0]?.trim() ?? "0"),
-    high: parseAmount(parts[1]?.trim() ?? "0"),
-  };
-}
-
 const allEntries: Entry[] = [
-  ...startupGrants.map((g) => {
-    const { low, high } = parseRange(g.range);
-    return { businessType: g.businessType, range: g.range, stage: "startup" as Stage, lowAmount: low, highAmount: high };
-  }),
-  ...existingBusinessGrants.map((g) => {
-    const { low, high } = parseRange(g.range);
-    return { businessType: g.businessType, range: g.range, stage: "existing" as Stage, lowAmount: low, highAmount: high };
-  }),
+  ...startupGrants.map((g) => ({ businessType: g.businessType, stage: "startup" as Stage })),
+  ...existingBusinessGrants.map((g) => ({ businessType: g.businessType, stage: "existing" as Stage })),
 ];
 
 export default function GrantsDatabasePage() {
   const [search, setSearch] = useState("");
   const [filterTab, setFilterTab] = useState<FilterTab>("all");
-  const [sort, setSort] = useState<SortMode>("alpha");
 
   const filtered = useMemo(() => {
     let entries = allEntries;
@@ -58,12 +33,8 @@ export default function GrantsDatabasePage() {
       entries = entries.filter((e) => e.businessType.toLowerCase().includes(q));
     }
 
-    return [...entries].sort((a, b) => {
-      if (sort === "alpha") return a.businessType.localeCompare(b.businessType);
-      if (sort === "high") return b.highAmount - a.highAmount;
-      return a.lowAmount - b.lowAmount;
-    });
-  }, [search, filterTab, sort]);
+    return [...entries].sort((a, b) => a.businessType.localeCompare(b.businessType));
+  }, [search, filterTab]);
 
   return (
     <>
@@ -74,8 +45,8 @@ export default function GrantsDatabasePage() {
             Canadian Grants &amp; Funding Database
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Browse grant funding ranges by business type. Updated June 2026. Amounts reflect
-            combined federal, provincial, municipal, and private programmes.
+            Browse the business types we help secure federal, provincial, municipal, and private
+            funding for — then check your eligibility.
           </p>
         </div>
       </section>
@@ -118,23 +89,11 @@ export default function GrantsDatabasePage() {
               ))}
             </div>
 
-            {/* Sort */}
-            <div className="flex-shrink-0">
-              <select
-                value={sort}
-                onChange={(e) => setSort(e.target.value as SortMode)}
-                className="text-xs border border-gray-200 rounded px-3 py-2 text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-blue bg-white"
-              >
-                <option value="alpha">Sort: Alphabetical</option>
-                <option value="high">Sort: Funding High → Low</option>
-                <option value="low">Sort: Funding Low → High</option>
-              </select>
-            </div>
           </div>
 
           {/* Result count */}
           <p className="text-xs text-gray-400 mt-2">
-            Showing {filtered.length} of {allEntries.length} programmes
+            Showing {filtered.length} of {allEntries.length} business types
           </p>
         </div>
       </div>
@@ -163,8 +122,7 @@ export default function GrantsDatabasePage() {
       <section className="bg-white py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs text-gray-400 leading-relaxed text-center">
-            Amounts reflect combined federal, provincial, municipal, and private-sector grant
-            programmes available as of June 2026. Programmes are subject to change; always confirm
+            Grant programmes are subject to change; always confirm
             details directly with the administering agency. Canada Grants and Loans does not
             guarantee approval of any grant application.
           </p>
@@ -213,12 +171,9 @@ function GrantCard({ entry }: { entry: Entry }) {
       </div>
 
       {/* Business type */}
-      <h3 className="font-bold text-brand-dark text-sm leading-snug mb-3 flex-1">
+      <h3 className="font-bold text-brand-dark text-sm leading-snug mb-4 flex-1">
         {entry.businessType}
       </h3>
-
-      {/* Funding range */}
-      <p className="text-xl font-bold text-green-700 mb-4">{entry.range}</p>
 
       {/* CTA */}
       <Link
